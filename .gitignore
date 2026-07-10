@@ -1,0 +1,28 @@
+# .NET
+bin/
+obj/
+*.user
+*.suo
+*.userprefs
+
+# Node
+node_modules/
+frontend/dist/
+
+# IDE
+.vs/
+.idea/
+*.swp
+
+# VS Code - permite configurações compartilhadas do projeto
+!.vscode/
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# Configuração local com connection string real do MongoDB Atlas
+# NUNCA commitar a connection string real
+backend/appsettings.Development.json
+
+# OS
+.DS_Store
+Thumbs.db
